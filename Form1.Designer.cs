@@ -1,0 +1,74 @@
+﻿namespace ComputerINformatie
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.infoButton = new System.Windows.Forms.Button();
+            this.informationForm = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // infoButton
+            // 
+            this.infoButton.Location = new System.Drawing.Point(414, 502);
+            this.infoButton.Name = "infoButton";
+            this.infoButton.Size = new System.Drawing.Size(75, 23);
+            this.infoButton.TabIndex = 0;
+            this.infoButton.Text = "&Toon info";
+            this.infoButton.UseVisualStyleBackColor = true;
+            this.infoButton.Click += new System.EventHandler(this.infoButton_Click);
+            // 
+            // informationForm
+            // 
+            this.informationForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.informationForm.Location = new System.Drawing.Point(12, 12);
+            this.informationForm.Multiline = true;
+            this.informationForm.Name = "informationForm";
+            this.informationForm.Size = new System.Drawing.Size(477, 469);
+            this.informationForm.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(509, 556);
+            this.Controls.Add(this.informationForm);
+            this.Controls.Add(this.infoButton);
+            this.Name = "Form1";
+            this.Text = "Computer Informatie";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button infoButton;
+        private System.Windows.Forms.TextBox informationForm;
+    }
+}
+
